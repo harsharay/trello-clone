@@ -3,3 +3,13 @@
     height: 70vh;
     width: 30vw;
 }
+
+.list-main {
+    list-style: none;
+}
+
+.list-main li {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 15px;
+}

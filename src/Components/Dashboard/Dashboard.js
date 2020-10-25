@@ -11,13 +11,10 @@ const Dashboard = () => {
         <>
             <h1>Dashboard</h1>
                 <div className="all-boards">
-                    {data.boards.map((item, index) => {
-                        return (
-                            <div key={index}>
-                                <Board boardName={item.name} tasks={item.tasks} id={item.id}/>
-                            </div>
-                        )
-                    })}
+                    
+                    {/* <Board boardName={item.name} tasks={item.tasks} id={item.id}/> */}
+                    <Board />
+                            
                 </div>
         </>
     )
